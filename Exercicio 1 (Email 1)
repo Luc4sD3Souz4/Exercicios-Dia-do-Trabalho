@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int son(int x)
+{
+    if (x == 0)
+    {
+    	printf("Seu numero e zero\n");
+	}
+	else
+	{
+		printf("Seu numero nao e zero\n");
+	}
+}
+ 
+int main()
+{
+	int numero;
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
+    son(numero);
+}
